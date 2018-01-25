@@ -18,3 +18,7 @@ The following subfolders are located in the [SAS](sas) directory:
 * [stats_ins](sas/stats_ins): PROC SURVEY code snippets pertaining to the **Health insurance** tables.
 * [stats_pmed](sas/stats_pmed): PROC SURVEY code snippets pertaining to the **Prescribed drugs** tables, with separate codes when stratified by therapeutic class (TC1name) or generic drug name (RXDRGNAM).
 * [stats_use](sas/stats_use): PROC SURVEY code snippets pertaining to the **Use, expenditures, and population** tables, with separate codes when stratified by event type, source of payment (sop), or both
+
+### STATA
+The following subfolders are located in the [STATA](stata) directory:
+* [grps](stata/grps): code to define human-readable grouping variables from variables on the MEPS public use files (e.g. age groups, region, health status)
